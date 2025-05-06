@@ -1,7 +1,0 @@
-#Time Tracker
-
-## May 05
-- Download VMWare Workstation 16 Player
-- Create virtual machine named "VMWare Automation Lab" running ubuntu server
-- Give it 20GB of storage, using 2 processors, on NAT, with 2GB of ram
-
