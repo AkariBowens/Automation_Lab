@@ -1,8 +1,9 @@
 #!/bin/bash
 # Script to automate user creation
 
-# 
+# Checks for or creates logs directory
 mkdir -p logs
+# Checks for or creates a log
 LOG_FILE = "logs/user_creation_log.log"
 
 # Checks for an input file
