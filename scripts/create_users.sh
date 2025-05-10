@@ -3,7 +3,7 @@
 
 # 
 mkdir -p logs
-LOG_FILE = "logs/user_created_$(date +%Y%m%d_%H%M%S).log"
+LOG_FILE = "logs/user_creation_log.log"
 
 # Checks for an input file
 if [ -z "$1"]; then 
