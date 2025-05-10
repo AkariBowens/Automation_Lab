@@ -1,8 +1,9 @@
 #!/bin/bash
 # Script to automate user creation
 
-# I did not give this a dedicated file because it is for a home lab, I would in a work-setting
-LOG_FILE = "user_log_file.log"
+# 
+mkdir -p logs
+LOG_FILE = "logs/user_created_$(date +%Y%m%d_%H%M%S).log"
 
 # Checks for an input file
 if [ -z "$1"]; then 
