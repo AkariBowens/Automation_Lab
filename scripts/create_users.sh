@@ -2,9 +2,9 @@
 # Script to automate user creation
 
 # Checks for or creates logs directory
-mkdir -p logs
+mkdir -p ../logs
 # Checks for or creates a log
-LOG_FILE = "logs/user_creation_log.log"
+LOG_FILE = "../logs/user_creation_log.log"
 
 # Checks for an input file
 if [ -z "$1"]; then 
@@ -12,6 +12,7 @@ if [ -z "$1"]; then
   exit 1
 fi
 
+# Appends to log file
 echo "Starting user creation: $(date)" >> "$log_file"
 
 # Reads each line in file, separates last name and first name in each line by ","
